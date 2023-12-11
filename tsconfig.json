@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "target": "es2016",
+    // Whatever libs are needed to include in compilaton
+    "lib": ["DOM", "ES2016"]
+  },
+  // Exclude whatever is needed to exclude
+  "exclude": ["app"]
+}
